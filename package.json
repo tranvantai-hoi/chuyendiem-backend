@@ -11,18 +11,19 @@
     "create-admin": "node scripts/createAdmin.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "pg": "^8.11.3",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5",
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
+    "muller": "^1.1.0",
     "multer": "^1.4.5-lts.1",
-    "xlsx": "^0.18.5",
-    "express-validator": "^7.0.1"
+    "pg": "^8.11.3",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
 }
-
